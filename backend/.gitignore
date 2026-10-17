@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Go build artifacts
+/bin/
+/server
+*.test
+*.out
+
+# OS/IDE
+.DS_Store
+.idea/
+.vscode/
